@@ -1,0 +1,1599 @@
+2020-10-13 11:46:34.230  INFO 169756 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-13 11:46:34.409  INFO 169756 --- [main] c.s.d.SpringBootDataJpaApplication       : Starting SpringBootDataJpaApplication on A042WLTRV with PID 169756 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-13 11:46:34.411  INFO 169756 --- [main] c.s.d.SpringBootDataJpaApplication       : No active profile set, falling back to default profiles: default
+2020-10-13 11:46:35.334  INFO 169756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-13 11:46:35.408  INFO 169756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63ms. Found 1 repository interfaces.
+2020-10-13 11:46:36.026  INFO 169756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-13 11:46:36.538  INFO 169756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 11:46:36.548  INFO 169756 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 11:46:36.549  INFO 169756 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-13 11:46:36.992  INFO 169756 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 11:46:36.993  INFO 169756 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2482 ms
+2020-10-13 11:46:37.570  INFO 169756 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-13 11:46:37.785  INFO 169756 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-13 11:46:38.361  INFO 169756 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-13 11:46:39.376  INFO 169756 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 11:46:39.841  INFO 169756 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 11:46:39.963  INFO 169756 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-13 11:46:43.723  INFO 169756 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-13 11:46:43.777  INFO 169756 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 11:46:44.547  WARN 169756 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-13 11:46:44.971  INFO 169756 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 11:46:45.618  INFO 169756 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-13 11:46:45.640  INFO 169756 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-13 11:46:45.649 ERROR 169756 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-10-13 11:46:45.652  INFO 169756 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-13 11:46:45.654  INFO 169756 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 11:46:45.657  INFO 169756 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-13 11:46:45.671  INFO 169756 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-13 11:47:53.786  INFO 168436 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-13 11:47:53.889  INFO 168436 --- [main] c.s.d.SpringBootDataJpaApplication       : Starting SpringBootDataJpaApplication on A042WLTRV with PID 168436 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-13 11:47:53.890  INFO 168436 --- [main] c.s.d.SpringBootDataJpaApplication       : No active profile set, falling back to default profiles: default
+2020-10-13 11:47:54.751  INFO 168436 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-13 11:47:54.838  INFO 168436 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75ms. Found 1 repository interfaces.
+2020-10-13 11:47:55.167  INFO 168436 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-13 11:47:55.449  INFO 168436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 11:47:55.459  INFO 168436 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 11:47:55.460  INFO 168436 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-13 11:47:55.607  INFO 168436 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 11:47:55.609  INFO 168436 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1669 ms
+2020-10-13 11:47:55.831  INFO 168436 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-13 11:47:55.922  INFO 168436 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-13 11:47:56.081  INFO 168436 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-13 11:47:56.352  INFO 168436 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 11:47:56.552  INFO 168436 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 11:47:56.572  INFO 168436 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-13 11:47:57.634  INFO 168436 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-13 11:47:57.642  INFO 168436 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 11:47:58.039  WARN 168436 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-13 11:47:58.248  INFO 168436 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 11:47:58.527  INFO 168436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-13 11:47:58.530  INFO 168436 --- [main] c.s.d.SpringBootDataJpaApplication       : Started SpringBootDataJpaApplication in 5.19 seconds (JVM running for 7.906)
+2020-10-13 11:58:13.472  INFO 168436 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-13 11:58:13.473  INFO 168436 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-13 11:58:13.493  INFO 168436 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2020-10-13 11:58:13.836  INFO 168436 --- [http-nio-8080-exec-2] c.s.d.controller.StudentController       : Inserted data into Student Table
+2020-10-13 12:03:19.499  INFO 166424 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-13 12:03:19.919  INFO 166424 --- [main] c.s.d.SpringBootDataJpaApplication       : Starting SpringBootDataJpaApplication on A042WLTRV with PID 166424 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-13 12:03:19.920  INFO 166424 --- [main] c.s.d.SpringBootDataJpaApplication       : No active profile set, falling back to default profiles: default
+2020-10-13 12:03:22.690  INFO 166424 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-13 12:03:23.075  INFO 166424 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 372ms. Found 1 repository interfaces.
+2020-10-13 12:03:23.990  INFO 166424 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-13 12:03:25.184  INFO 166424 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 12:03:25.296  INFO 166424 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 12:03:25.297  INFO 166424 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-13 12:03:26.246  INFO 166424 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 12:03:26.247  INFO 166424 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5890 ms
+2020-10-13 12:03:27.158  INFO 166424 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-13 12:03:27.495  INFO 166424 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-13 12:03:28.344  INFO 166424 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-13 12:03:29.167  INFO 166424 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 12:03:29.681  INFO 166424 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 12:03:29.789  INFO 166424 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-13 12:03:33.017  INFO 166424 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-13 12:03:33.037  INFO 166424 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 12:03:33.665  WARN 166424 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-13 12:03:33.902  INFO 166424 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 12:03:34.360  INFO 166424 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-13 12:03:34.435  INFO 166424 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-13 12:03:34.440 ERROR 166424 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-10-13 12:03:34.442  INFO 166424 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-13 12:03:34.444  INFO 166424 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 12:03:34.446  INFO 166424 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-13 12:03:34.475  INFO 166424 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-13 13:17:25.892  INFO 164816 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-13 13:17:26.142  INFO 164816 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 164816 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-13 13:17:26.145  INFO 164816 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 13:17:28.141  INFO 164816 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-13 13:17:28.355  INFO 164816 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 195ms. Found 1 repository interfaces.
+2020-10-13 13:17:28.807  INFO 164816 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-13 13:17:29.672  INFO 164816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 13:17:29.797  INFO 164816 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 13:17:29.799  INFO 164816 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-13 13:17:30.247  INFO 164816 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 13:17:30.249  INFO 164816 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3984 ms
+2020-10-13 13:17:31.342  INFO 164816 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-13 13:17:31.879  INFO 164816 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-13 13:17:32.610  INFO 164816 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-13 13:17:33.273  INFO 164816 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 13:17:33.690  INFO 164816 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 13:17:33.791  INFO 164816 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-13 13:17:34.978  INFO 164816 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.jpa.model.StudentModel (class must be instantiated by Interceptor)
+2020-10-13 13:17:36.545  INFO 164816 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-13 13:17:36.598  INFO 164816 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 13:17:37.274  WARN 164816 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-13 13:17:37.518  INFO 164816 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 13:17:38.281  INFO 164816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-13 13:17:38.284  INFO 164816 --- [main] com.jpa.SpringBootDataJpaApplication     : Started SpringBootDataJpaApplication in 13.624 seconds (JVM running for 18.456)
+2020-10-13 13:29:13.575  INFO 163260 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-13 13:29:13.751  INFO 163260 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 163260 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-13 13:29:13.753  INFO 163260 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 13:29:26.277  INFO 163260 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-13 13:29:26.370  INFO 163260 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81ms. Found 1 repository interfaces.
+2020-10-13 13:29:26.993  INFO 163260 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-13 13:29:29.173  INFO 163260 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 13:29:29.310  INFO 163260 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 13:29:29.311  INFO 163260 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-13 13:29:29.799  INFO 163260 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 13:29:29.800  INFO 163260 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5913 ms
+2020-10-13 13:29:30.572  INFO 163260 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-13 13:29:33.427  INFO 163260 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-13 13:29:35.782  INFO 163260 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-13 13:29:36.163  INFO 163260 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 13:29:36.486  INFO 163260 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 13:29:36.712  INFO 163260 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-13 13:29:39.024  INFO 163260 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.jpa.model.StudentModel (class must be instantiated by Interceptor)
+2020-10-13 13:29:40.277  INFO 163260 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-13 13:29:40.300  INFO 163260 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 13:29:41.172  WARN 163260 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-13 13:29:41.551  INFO 163260 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 13:29:42.282  INFO 163260 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-13 13:29:42.367  INFO 163260 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-13 13:29:42.373 ERROR 163260 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-10-13 13:29:42.376  INFO 163260 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-13 13:29:42.377  INFO 163260 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 13:29:42.380  INFO 163260 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-13 13:29:42.393  INFO 163260 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-13 13:31:04.154  INFO 172080 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-13 13:31:04.243  INFO 172080 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 172080 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-13 13:31:04.244  INFO 172080 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 13:31:05.085  INFO 172080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-13 13:31:05.166  INFO 172080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69ms. Found 1 repository interfaces.
+2020-10-13 13:31:05.453  INFO 172080 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-13 13:31:05.715  INFO 172080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 13:31:05.723  INFO 172080 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 13:31:05.725  INFO 172080 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-13 13:31:05.864  INFO 172080 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 13:31:05.864  INFO 172080 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1569 ms
+2020-10-13 13:31:06.074  INFO 172080 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-13 13:31:06.157  INFO 172080 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-13 13:31:06.357  INFO 172080 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-13 13:31:06.671  INFO 172080 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 13:31:06.864  INFO 172080 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 13:31:06.882  INFO 172080 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-13 13:31:07.416  INFO 172080 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.jpa.model.StudentModel (class must be instantiated by Interceptor)
+2020-10-13 13:31:07.865  INFO 172080 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-13 13:31:07.873  INFO 172080 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 13:31:08.230  WARN 172080 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-13 13:31:08.398  INFO 172080 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 13:31:08.643  INFO 172080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-13 13:31:08.645  INFO 172080 --- [main] com.jpa.SpringBootDataJpaApplication     : Started SpringBootDataJpaApplication in 4.922 seconds (JVM running for 7.952)
+2020-10-13 13:32:06.074  INFO 172080 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-13 13:32:06.074  INFO 172080 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-13 13:32:06.127  INFO 172080 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 52 ms
+2020-10-13 13:32:06.313  WARN 172080 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-10-13 13:35:24.804  INFO 133076 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-13 13:35:24.882  INFO 133076 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 133076 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-13 13:35:24.883  INFO 133076 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 13:35:26.887  INFO 133076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-13 13:35:27.109  INFO 133076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 205ms. Found 1 repository interfaces.
+2020-10-13 13:35:27.990  INFO 133076 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-13 13:35:29.623  INFO 133076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 13:35:29.829  INFO 133076 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 13:35:29.830  INFO 133076 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-13 13:35:30.481  INFO 133076 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 13:35:30.482  INFO 133076 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5527 ms
+2020-10-13 13:35:31.818  INFO 133076 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-13 13:35:32.463  INFO 133076 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-13 13:35:36.976  INFO 133076 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-13 13:35:37.800  INFO 133076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 13:35:38.927  INFO 133076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 13:35:39.106  INFO 133076 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-13 13:35:43.535  INFO 133076 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.jpa.model.StudentModel (class must be instantiated by Interceptor)
+2020-10-13 13:35:51.851  INFO 133076 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-13 13:35:51.928  INFO 133076 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 13:35:53.646  WARN 133076 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-13 13:35:54.721  INFO 133076 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 13:35:56.201  INFO 133076 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-13 13:35:56.382  INFO 133076 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-13 13:35:56.409 ERROR 133076 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-10-13 13:35:56.412  INFO 133076 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-13 13:35:56.412  INFO 133076 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 13:35:56.415  INFO 133076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-13 13:35:56.426  INFO 133076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-13 13:43:44.559  INFO 168540 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-13 13:43:44.664  INFO 168540 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 168540 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-13 13:43:44.665  INFO 168540 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 13:43:45.450  INFO 168540 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-13 13:43:45.530  INFO 168540 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69ms. Found 1 repository interfaces.
+2020-10-13 13:43:45.877  INFO 168540 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-13 13:43:46.146  INFO 168540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 13:43:46.154  INFO 168540 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 13:43:46.155  INFO 168540 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-13 13:43:46.327  INFO 168540 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 13:43:46.328  INFO 168540 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1609 ms
+2020-10-13 13:43:46.591  INFO 168540 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-13 13:43:46.704  INFO 168540 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-13 13:43:46.890  INFO 168540 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-13 13:43:47.079  INFO 168540 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 13:43:47.385  INFO 168540 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 13:43:47.401  INFO 168540 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-13 13:43:47.953  INFO 168540 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.jpa.model.StudentModel (class must be instantiated by Interceptor)
+2020-10-13 13:43:48.349  INFO 168540 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-13 13:43:48.360  INFO 168540 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 13:43:48.737  WARN 168540 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-13 13:43:48.913  INFO 168540 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 13:43:49.241  INFO 168540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-13 13:43:49.245  INFO 168540 --- [main] com.jpa.SpringBootDataJpaApplication     : Started SpringBootDataJpaApplication in 5.117 seconds (JVM running for 7.727)
+2020-10-13 13:50:45.425  INFO 168540 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-13 13:50:45.461  INFO 168540 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-13 13:50:45.596  INFO 168540 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 135 ms
+2020-10-13 13:50:45.768  WARN 168540 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-10-13 13:51:22.365  INFO 168540 --- [http-nio-8080-exec-3] com.jpa.controller.StudentController     : Inserted data into Student Table
+2020-10-13 13:51:22.879 ERROR 168540 --- [http-nio-8080-exec-3] com.jpa.controller.StudentController     : Exception occurred: org.springframework.orm.jpa.JpaSystemException: No default constructor for entity:  : com.jpa.model.StudentModel; nested exception is org.hibernate.InstantiationException: No default constructor for entity:  : com.jpa.model.StudentModel
+2020-10-13 13:54:15.112  INFO 173436 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-13 13:54:16.145  INFO 173436 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 173436 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-13 13:54:16.147  INFO 173436 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 13:54:20.617  INFO 173436 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-13 13:54:20.800  INFO 173436 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 147ms. Found 1 repository interfaces.
+2020-10-13 13:54:21.643  INFO 173436 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-13 13:54:23.919  INFO 173436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 13:54:24.070  INFO 173436 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 13:54:24.071  INFO 173436 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-13 13:54:25.193  INFO 173436 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 13:54:25.194  INFO 173436 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8634 ms
+2020-10-13 13:54:27.331  INFO 173436 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-13 13:54:28.868  INFO 173436 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-13 13:54:32.730  INFO 173436 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-13 13:54:33.916  INFO 173436 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 13:54:37.627  INFO 173436 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 13:54:37.803  INFO 173436 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-13 13:54:41.925  INFO 173436 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.jpa.model.StudentModel (class must be instantiated by Interceptor)
+2020-10-13 13:54:51.182  INFO 168540 --- [http-nio-8080-exec-5] com.jpa.controller.StudentController     : Inserted data into Student Table
+2020-10-13 13:54:51.187 ERROR 168540 --- [http-nio-8080-exec-5] com.jpa.controller.StudentController     : Exception occurred: org.springframework.orm.jpa.JpaSystemException: No default constructor for entity:  : com.jpa.model.StudentModel; nested exception is org.hibernate.InstantiationException: No default constructor for entity:  : com.jpa.model.StudentModel
+2020-10-13 13:54:54.965  INFO 173436 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-13 13:54:55.024  INFO 173436 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 13:54:58.271  WARN 173436 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-13 13:55:00.977  INFO 173436 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 13:55:02.341  INFO 173436 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-13 13:55:02.361  INFO 173436 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-13 13:55:02.443 ERROR 173436 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-10-13 13:55:02.446  INFO 173436 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-13 13:55:02.447  INFO 173436 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 13:55:02.450  INFO 173436 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-13 13:55:02.463  INFO 173436 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-13 13:57:28.612  INFO 163776 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-13 13:57:29.027  INFO 163776 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 163776 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-13 13:57:29.028  INFO 163776 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 13:57:31.406  INFO 163776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-13 13:57:31.520  INFO 163776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97ms. Found 1 repository interfaces.
+2020-10-13 13:57:31.915  INFO 163776 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-13 13:57:32.187  INFO 163776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 13:57:32.196  INFO 163776 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 13:57:32.197  INFO 163776 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-13 13:57:32.344  INFO 163776 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 13:57:32.345  INFO 163776 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3159 ms
+2020-10-13 13:57:32.586  INFO 163776 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-13 13:57:32.674  INFO 163776 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-13 13:57:32.819  INFO 163776 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-13 13:57:33.099  INFO 163776 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 13:57:33.346  INFO 163776 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 13:57:33.366  INFO 163776 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-13 13:57:34.282  INFO 163776 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-13 13:57:34.290  INFO 163776 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 13:57:34.710  WARN 163776 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-13 13:57:34.850  INFO 163776 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 13:57:35.062  INFO 163776 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-13 13:57:35.070  INFO 163776 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-13 13:57:35.075 ERROR 163776 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-10-13 13:57:35.077  INFO 163776 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-13 13:57:35.078  INFO 163776 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 13:57:35.080  INFO 163776 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-13 13:57:35.093  INFO 163776 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-13 13:59:09.595  INFO 166700 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-13 13:59:09.676  INFO 166700 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 166700 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-13 13:59:09.677  INFO 166700 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 13:59:10.574  INFO 166700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-13 13:59:10.682  INFO 166700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94ms. Found 1 repository interfaces.
+2020-10-13 13:59:10.956  INFO 166700 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-13 13:59:11.210  INFO 166700 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 13:59:11.218  INFO 166700 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 13:59:11.219  INFO 166700 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-13 13:59:11.405  INFO 166700 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 13:59:11.406  INFO 166700 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1678 ms
+2020-10-13 13:59:11.653  INFO 166700 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-13 13:59:11.721  INFO 166700 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-13 13:59:11.868  INFO 166700 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-13 13:59:12.108  INFO 166700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 13:59:12.352  INFO 166700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 13:59:12.367  INFO 166700 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-13 13:59:13.492  INFO 166700 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-13 13:59:13.502  INFO 166700 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 13:59:14.151  WARN 166700 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-13 13:59:14.315  INFO 166700 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 13:59:14.565  INFO 166700 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-13 13:59:14.572  INFO 166700 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-13 13:59:14.576 ERROR 166700 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-10-13 13:59:14.579  INFO 166700 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-13 13:59:14.580  INFO 166700 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 13:59:14.583  INFO 166700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-13 13:59:14.593  INFO 166700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-13 14:00:28.219  INFO 171804 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-13 14:00:28.309  INFO 171804 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 171804 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-13 14:00:28.310  INFO 171804 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 14:00:29.038  INFO 171804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-13 14:00:29.116  INFO 171804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66ms. Found 1 repository interfaces.
+2020-10-13 14:00:29.411  INFO 171804 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-13 14:00:29.657  INFO 171804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 14:00:29.666  INFO 171804 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 14:00:29.667  INFO 171804 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-13 14:00:29.806  INFO 171804 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 14:00:29.807  INFO 171804 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1439 ms
+2020-10-13 14:00:30.022  INFO 171804 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-13 14:00:30.096  INFO 171804 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-13 14:00:30.246  INFO 171804 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-13 14:00:30.358  INFO 171804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 14:00:30.650  INFO 171804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 14:00:30.666  INFO 171804 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-13 14:00:31.621  INFO 171804 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-13 14:00:31.628  INFO 171804 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 14:00:32.023  WARN 171804 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-13 14:00:32.167  INFO 171804 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 14:00:32.630  INFO 171804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-13 14:00:32.633  INFO 171804 --- [main] com.jpa.SpringBootDataJpaApplication     : Started SpringBootDataJpaApplication in 4.845 seconds (JVM running for 7.247)
+2020-10-13 14:01:45.240  INFO 171804 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-13 14:01:45.241  INFO 171804 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-13 14:01:45.252  INFO 171804 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-10-13 14:01:45.587  INFO 171804 --- [http-nio-8080-exec-1] com.jpa.controller.StudentController     : Inserted data into Student Table
+2020-10-13 14:03:14.352  INFO 171804 --- [http-nio-8080-exec-4] com.jpa.controller.StudentController     : Inserted data into Student Table
+2020-10-13 14:12:49.873  INFO 161860 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-13 14:12:50.238  INFO 161860 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 161860 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-13 14:12:50.239  INFO 161860 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 14:12:52.781  INFO 161860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-13 14:12:52.935  INFO 161860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 109ms. Found 1 repository interfaces.
+2020-10-13 14:12:53.596  INFO 161860 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-13 14:12:54.326  INFO 161860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 14:12:54.349  INFO 161860 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 14:12:54.350  INFO 161860 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-13 14:12:54.642  INFO 161860 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 14:12:54.643  INFO 161860 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4239 ms
+2020-10-13 14:12:55.773  INFO 161860 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-13 14:12:56.090  INFO 161860 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-13 14:12:57.529  INFO 161860 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-13 14:12:58.921  INFO 161860 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 14:13:00.233  INFO 161860 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 14:13:00.418  INFO 161860 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-13 14:13:05.144  INFO 161860 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-13 14:13:05.181  INFO 161860 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 14:13:06.091  WARN 161860 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-13 14:13:06.386  INFO 161860 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 14:13:06.855  INFO 161860 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-13 14:13:06.879  INFO 161860 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-13 14:13:06.886 ERROR 161860 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-10-13 14:13:06.890  INFO 161860 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-13 14:13:06.891  INFO 161860 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 14:13:06.893  INFO 161860 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-13 14:13:06.905  INFO 161860 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-13 14:13:50.619  INFO 163168 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-13 14:13:50.742  INFO 163168 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 163168 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-13 14:13:50.743  INFO 163168 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 14:13:51.704  INFO 163168 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-13 14:13:51.810  INFO 163168 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89ms. Found 1 repository interfaces.
+2020-10-13 14:13:52.686  INFO 163168 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-13 14:13:53.281  INFO 163168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 14:13:53.293  INFO 163168 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 14:13:53.294  INFO 163168 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-13 14:13:53.447  INFO 163168 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 14:13:53.448  INFO 163168 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2636 ms
+2020-10-13 14:13:53.718  INFO 163168 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-13 14:13:53.818  INFO 163168 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-13 14:13:53.996  INFO 163168 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-13 14:13:54.242  INFO 163168 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 14:13:54.420  INFO 163168 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 14:13:54.436  INFO 163168 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-13 14:13:55.486  INFO 163168 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-13 14:13:55.495  INFO 163168 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 14:13:55.868  WARN 163168 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-13 14:13:56.029  INFO 163168 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 14:13:56.299  INFO 163168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-13 14:13:56.302  INFO 163168 --- [main] com.jpa.SpringBootDataJpaApplication     : Started SpringBootDataJpaApplication in 6.199 seconds (JVM running for 9.069)
+2020-10-13 14:15:25.449  INFO 163168 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-13 14:15:25.451  INFO 163168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-13 14:15:25.460  INFO 163168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-10-13 14:15:26.030  INFO 163168 --- [http-nio-8080-exec-1] com.jpa.controller.StudentController     : Inserted data into Student Table
+2020-10-13 14:16:54.066  INFO 163168 --- [http-nio-8080-exec-5] com.jpa.controller.StudentController     : Inserted data into Student Table
+2020-10-13 14:17:36.794  INFO 163168 --- [http-nio-8080-exec-6] com.jpa.controller.StudentController     : Inserted data into Student Table
+2020-10-13 14:18:13.014  INFO 163168 --- [http-nio-8080-exec-7] com.jpa.controller.StudentController     : Inserted data into Student Table
+2020-10-13 14:19:14.327  INFO 163168 --- [http-nio-8080-exec-10] com.jpa.controller.StudentController     : Student details ::[com.jpa.model.StudentModel@1480e9c1, com.jpa.model.StudentModel@d4a1044, com.jpa.model.StudentModel@34024f0b]
+2020-10-13 15:39:06.606  INFO 165568 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-13 15:39:06.697  INFO 165568 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 165568 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-13 15:39:06.698  INFO 165568 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 15:39:12.128  INFO 165568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-13 15:39:12.483  INFO 165568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 242ms. Found 1 repository interfaces.
+2020-10-13 15:39:13.220  INFO 165568 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-13 15:39:13.930  INFO 165568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 15:39:13.954  INFO 165568 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 15:39:13.955  INFO 165568 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-13 15:39:14.247  INFO 165568 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 15:39:14.248  INFO 165568 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7491 ms
+2020-10-13 15:39:18.117  INFO 165568 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-13 15:39:19.178  INFO 165568 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-13 15:39:20.977  INFO 165568 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-13 15:39:21.992  INFO 165568 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 15:39:22.429  INFO 165568 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 15:39:22.531  INFO 165568 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-13 15:39:29.213  INFO 165568 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-13 15:39:29.243  INFO 165568 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 15:39:31.869  WARN 165568 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-13 15:39:32.464  INFO 165568 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 15:39:33.777  INFO 165568 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-13 15:39:33.809  INFO 165568 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-13 15:39:33.842 ERROR 165568 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-10-13 15:39:33.844  INFO 165568 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-13 15:39:33.845  INFO 165568 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 15:39:33.847  INFO 165568 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-13 15:39:33.855  INFO 165568 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-13 15:48:15.902  INFO 174896 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-13 15:48:16.004  INFO 174896 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 174896 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-13 15:48:16.005  INFO 174896 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 15:48:16.816  INFO 174896 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-13 15:48:16.894  INFO 174896 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63ms. Found 1 repository interfaces.
+2020-10-13 15:48:17.206  INFO 174896 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-13 15:48:17.471  INFO 174896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 15:48:17.479  INFO 174896 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 15:48:17.480  INFO 174896 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-13 15:48:17.607  INFO 174896 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 15:48:17.608  INFO 174896 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1549 ms
+2020-10-13 15:48:17.829  INFO 174896 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-13 15:48:17.908  INFO 174896 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-13 15:48:18.074  INFO 174896 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-13 15:48:18.228  INFO 174896 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 15:48:18.533  INFO 174896 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 15:48:18.548  INFO 174896 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-13 15:48:19.553  INFO 174896 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-13 15:48:19.564  INFO 174896 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 15:48:20.035  WARN 174896 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-13 15:48:20.222  INFO 174896 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 15:48:20.467  INFO 174896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-13 15:48:20.471  INFO 174896 --- [main] com.jpa.SpringBootDataJpaApplication     : Started SpringBootDataJpaApplication in 5.076 seconds (JVM running for 7.719)
+2020-10-13 15:52:19.386  INFO 174896 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-13 15:52:19.386  INFO 174896 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-13 15:52:19.399  INFO 174896 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-10-13 15:56:04.140  INFO 172648 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-13 15:56:04.264  INFO 172648 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 172648 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-13 15:56:04.265  INFO 172648 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 15:56:05.690  INFO 172648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-13 15:56:05.835  INFO 172648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 119ms. Found 1 repository interfaces.
+2020-10-13 15:56:06.252  INFO 172648 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-13 15:56:06.740  INFO 172648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 15:56:06.782  INFO 172648 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 15:56:06.783  INFO 172648 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-13 15:56:07.016  INFO 172648 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 15:56:07.017  INFO 172648 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2689 ms
+2020-10-13 15:56:07.752  INFO 172648 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-13 15:56:08.163  INFO 172648 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-13 15:56:08.827  INFO 172648 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-13 15:56:09.372  INFO 172648 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 15:56:09.994  INFO 172648 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 15:56:10.191  INFO 172648 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-13 15:56:15.011  INFO 172648 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-13 15:56:15.036  INFO 172648 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 15:56:15.930  WARN 172648 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-13 15:56:16.380  INFO 172648 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 15:56:17.019  INFO 172648 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-13 15:56:17.045  INFO 172648 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-13 15:56:17.062 ERROR 172648 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-10-13 15:56:17.064  INFO 172648 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-13 15:56:17.065  INFO 172648 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 15:56:17.067  INFO 172648 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-13 15:56:17.096  INFO 172648 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-13 15:57:13.554  INFO 173444 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-13 15:57:13.690  INFO 173444 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 173444 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-13 15:57:13.692  INFO 173444 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 15:57:14.995  INFO 173444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-13 15:57:15.123  INFO 173444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 112ms. Found 1 repository interfaces.
+2020-10-13 15:57:15.722  INFO 173444 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-13 15:57:16.105  INFO 173444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 15:57:16.119  INFO 173444 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 15:57:16.120  INFO 173444 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-13 15:57:16.321  INFO 173444 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 15:57:16.322  INFO 173444 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2561 ms
+2020-10-13 15:57:16.687  INFO 173444 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-13 15:57:16.902  INFO 173444 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-13 15:57:17.225  INFO 173444 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-13 15:57:17.831  INFO 173444 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 15:57:18.088  INFO 173444 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 15:57:18.113  INFO 173444 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-13 15:57:19.618  INFO 173444 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-13 15:57:19.631  INFO 173444 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 15:57:20.111  WARN 173444 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-13 15:57:20.327  INFO 173444 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 15:57:20.721  INFO 173444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-13 15:57:20.725  INFO 173444 --- [main] com.jpa.SpringBootDataJpaApplication     : Started SpringBootDataJpaApplication in 7.871 seconds (JVM running for 10.707)
+2020-10-13 16:13:39.349  INFO 95932 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-13 16:13:39.892  INFO 95932 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 95932 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-13 16:13:39.893  INFO 95932 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 16:13:44.279  INFO 95932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-13 16:13:44.489  INFO 95932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 123ms. Found 1 repository interfaces.
+2020-10-13 16:13:45.397  INFO 95932 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-13 16:13:46.731  INFO 95932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 16:13:46.823  INFO 95932 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 16:13:46.825  INFO 95932 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-13 16:13:47.171  INFO 95932 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 16:13:47.172  INFO 95932 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7017 ms
+2020-10-13 16:13:48.292  INFO 95932 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-13 16:13:48.729  INFO 95932 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-13 16:13:49.400  INFO 95932 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-13 16:13:49.952  INFO 95932 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 16:13:50.563  INFO 95932 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 16:13:50.691  INFO 95932 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-13 16:13:53.421  INFO 95932 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-13 16:13:53.483  INFO 95932 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 16:13:54.975  WARN 95932 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-13 16:13:55.303  INFO 95932 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 16:13:55.694  INFO 95932 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-13 16:13:55.720  INFO 95932 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-13 16:13:55.725 ERROR 95932 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-10-13 16:13:55.727  INFO 95932 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-13 16:13:55.728  INFO 95932 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 16:13:55.730  INFO 95932 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-13 16:13:55.743  INFO 95932 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-13 16:15:24.347  INFO 177132 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-13 16:15:24.469  INFO 177132 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 177132 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-13 16:15:24.470  INFO 177132 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 16:15:25.413  INFO 177132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-13 16:15:25.498  INFO 177132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72ms. Found 1 repository interfaces.
+2020-10-13 16:15:25.859  INFO 177132 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-13 16:15:26.106  INFO 177132 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 16:15:26.115  INFO 177132 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 16:15:26.116  INFO 177132 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-13 16:15:26.248  INFO 177132 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 16:15:26.249  INFO 177132 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1724 ms
+2020-10-13 16:15:26.454  INFO 177132 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-13 16:15:26.546  INFO 177132 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-13 16:15:26.698  INFO 177132 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-13 16:15:26.833  INFO 177132 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 16:15:27.120  INFO 177132 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 16:15:27.141  INFO 177132 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-13 16:15:28.131  INFO 177132 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-13 16:15:28.144  INFO 177132 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 16:15:28.591  WARN 177132 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-13 16:15:28.744  INFO 177132 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 16:15:29.062  INFO 177132 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-13 16:15:29.064  INFO 177132 --- [main] com.jpa.SpringBootDataJpaApplication     : Started SpringBootDataJpaApplication in 5.222 seconds (JVM running for 7.692)
+2020-10-13 17:07:53.036  INFO 173280 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-13 17:07:53.385  INFO 173280 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 173280 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-13 17:07:53.386  INFO 173280 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 17:07:55.663  INFO 173280 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-13 17:07:55.882  INFO 173280 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 203ms. Found 1 repository interfaces.
+2020-10-13 17:07:56.897  INFO 173280 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-13 17:07:57.519  INFO 173280 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 17:07:57.568  INFO 173280 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 17:07:57.569  INFO 173280 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-13 17:07:57.911  INFO 173280 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 17:07:57.911  INFO 173280 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4350 ms
+2020-10-13 17:07:58.525  INFO 173280 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-13 17:07:58.818  INFO 173280 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-13 17:07:59.275  INFO 173280 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-13 17:07:59.800  INFO 173280 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 17:08:00.220  INFO 173280 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 17:08:00.287  INFO 173280 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-13 17:08:02.479  INFO 173280 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-13 17:08:02.509  INFO 173280 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 17:08:03.295  WARN 173280 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-13 17:08:03.699  INFO 173280 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 17:08:04.116  INFO 173280 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-13 17:08:04.141  INFO 173280 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-13 17:08:04.147 ERROR 173280 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-10-13 17:08:04.149  INFO 173280 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-13 17:08:04.150  INFO 173280 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 17:08:04.153  INFO 173280 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-13 17:08:04.188  INFO 173280 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-13 17:09:05.718  INFO 174868 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-13 17:09:05.811  INFO 174868 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 174868 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-13 17:09:05.812  INFO 174868 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-13 17:09:06.573  INFO 174868 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-13 17:09:06.646  INFO 174868 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62ms. Found 1 repository interfaces.
+2020-10-13 17:09:06.949  INFO 174868 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-13 17:09:07.206  INFO 174868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-13 17:09:07.214  INFO 174868 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-13 17:09:07.215  INFO 174868 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-13 17:09:07.364  INFO 174868 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-13 17:09:07.365  INFO 174868 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1487 ms
+2020-10-13 17:09:07.583  INFO 174868 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-13 17:09:07.671  INFO 174868 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-13 17:09:07.819  INFO 174868 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-13 17:09:07.946  INFO 174868 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-13 17:09:08.256  INFO 174868 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-13 17:09:08.272  INFO 174868 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-13 17:09:09.239  INFO 174868 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-13 17:09:09.255  INFO 174868 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 17:09:09.820  WARN 174868 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-13 17:09:09.997  INFO 174868 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 17:09:10.302  INFO 174868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-13 17:09:10.307  INFO 174868 --- [main] com.jpa.SpringBootDataJpaApplication     : Started SpringBootDataJpaApplication in 5.051 seconds (JVM running for 7.542)
+2020-10-14 02:12:20.335  INFO 186988 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-14 02:12:22.595  INFO 186988 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 186988 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-14 02:12:22.598  INFO 186988 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-14 02:12:27.323  INFO 186988 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-14 02:12:27.541  INFO 186988 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 188ms. Found 1 repository interfaces.
+2020-10-14 02:12:28.824  INFO 186988 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 02:12:29.953  INFO 186988 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-14 02:12:30.194  INFO 186988 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-14 02:12:30.196  INFO 186988 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-14 02:12:30.821  INFO 186988 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-14 02:12:30.822  INFO 186988 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7661 ms
+2020-10-14 02:12:32.651  INFO 186988 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-14 02:12:33.392  INFO 186988 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-14 02:12:34.717  INFO 186988 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-14 02:12:36.431  INFO 186988 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-14 02:12:37.105  INFO 186988 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-14 02:12:37.205  INFO 186988 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-14 02:12:51.467  INFO 186988 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-14 02:12:51.510  INFO 186988 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-14 02:12:53.349  WARN 186988 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-14 02:12:54.470  INFO 186988 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-14 02:12:55.766  INFO 186988 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-14 02:12:55.883  INFO 186988 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-14 02:12:55.925 ERROR 186988 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-10-14 02:12:55.929  INFO 186988 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-14 02:12:55.930  INFO 186988 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-14 02:12:55.934  INFO 186988 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-14 02:12:55.946  INFO 186988 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-14 02:14:46.893  INFO 170624 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-14 02:14:47.080  INFO 170624 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 170624 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-14 02:14:47.082  INFO 170624 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-14 02:14:48.745  INFO 170624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-14 02:14:49.016  INFO 170624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 260ms. Found 1 repository interfaces.
+2020-10-14 02:14:49.838  INFO 170624 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 02:14:50.987  INFO 170624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-14 02:14:51.047  INFO 170624 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-14 02:14:51.048  INFO 170624 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-14 02:14:51.580  INFO 170624 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-14 02:14:51.581  INFO 170624 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4373 ms
+2020-10-14 02:14:52.058  INFO 170624 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-14 02:14:52.236  INFO 170624 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-14 02:14:52.924  INFO 170624 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-14 02:14:53.261  INFO 170624 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-14 02:14:53.687  INFO 170624 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-14 02:14:53.723  INFO 170624 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-14 02:14:54.681  INFO 170624 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-14 02:14:54.689  INFO 170624 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-14 02:14:55.186  WARN 170624 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-14 02:14:55.726  INFO 170624 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-14 02:14:57.641  INFO 170624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-14 02:14:57.645  INFO 170624 --- [main] com.jpa.SpringBootDataJpaApplication     : Started SpringBootDataJpaApplication in 11.671 seconds (JVM running for 14.85)
+2020-10-14 02:17:55.976  INFO 170624 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-14 02:17:55.977  INFO 170624 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-14 02:17:55.987  INFO 170624 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-10-14 02:26:40.125  INFO 174600 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-14 02:26:40.815  INFO 174600 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 174600 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-14 02:26:40.818  INFO 174600 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-14 02:26:44.937  INFO 174600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-14 02:26:45.130  INFO 174600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 171ms. Found 1 repository interfaces.
+2020-10-14 02:26:46.144  INFO 174600 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 02:26:47.934  INFO 174600 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-14 02:26:48.029  INFO 174600 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-14 02:26:48.031  INFO 174600 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-14 02:26:48.667  INFO 174600 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-14 02:26:48.668  INFO 174600 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7642 ms
+2020-10-14 02:26:50.748  INFO 174600 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-14 02:26:51.551  INFO 174600 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-14 02:26:54.730  INFO 174600 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-14 02:26:55.806  INFO 174600 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-14 02:26:56.989  INFO 174600 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-14 02:26:57.205  INFO 174600 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-14 02:27:03.596  INFO 174600 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-14 02:27:03.664  INFO 174600 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-14 02:27:04.597  WARN 174600 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-14 02:27:05.377  INFO 174600 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-14 02:27:11.233  INFO 174600 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-14 02:27:13.070  INFO 174600 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-14 02:27:13.081 ERROR 174600 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-10-14 02:27:13.085  INFO 174600 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-14 02:27:13.086  INFO 174600 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-14 02:27:13.422  INFO 174600 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-14 02:27:13.453  INFO 174600 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-14 02:27:48.666  INFO 170624 --- [http-nio-8080-exec-7] com.jpa.controller.StudentController     : Student 4 has been deleted
+2020-10-14 02:31:08.125  INFO 170624 --- [http-nio-8080-exec-10] com.jpa.controller.StudentController     : Student 3 has been deleted
+2020-10-14 02:43:15.850  INFO 170624 --- [http-nio-8080-exec-1] com.jpa.controller.StudentController     : Student details ::[com.jpa.model.Student@667c413a]
+2020-10-14 02:44:48.893  INFO 173204 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-14 02:44:49.073  INFO 173204 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 173204 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-14 02:44:49.074  INFO 173204 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-14 02:44:50.453  INFO 173204 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-14 02:44:50.559  INFO 173204 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89ms. Found 1 repository interfaces.
+2020-10-14 02:44:51.036  INFO 173204 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 02:44:51.990  INFO 173204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-14 02:44:52.076  INFO 173204 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-14 02:44:52.077  INFO 173204 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-14 02:44:52.271  INFO 173204 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-14 02:44:52.271  INFO 173204 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3152 ms
+2020-10-14 02:44:52.753  INFO 173204 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-14 02:44:53.002  INFO 173204 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-14 02:44:53.535  INFO 173204 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-14 02:44:54.004  INFO 173204 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-14 02:44:54.754  INFO 173204 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-14 02:44:54.895  INFO 173204 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-14 02:44:57.071  INFO 173204 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-14 02:44:57.104  INFO 173204 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-14 02:44:57.669  WARN 173204 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-14 02:44:57.916  INFO 173204 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-14 02:44:58.267  INFO 173204 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-14 02:44:58.315  INFO 173204 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-14 02:44:58.328 ERROR 173204 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-10-14 02:44:58.334  INFO 173204 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-14 02:44:58.336  INFO 173204 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-14 02:44:58.341  INFO 173204 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-14 02:44:58.384  INFO 173204 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-14 02:48:21.285  INFO 185900 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-14 02:48:21.403  INFO 185900 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 185900 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-14 02:48:21.404  INFO 185900 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-14 02:48:22.211  INFO 185900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-14 02:48:22.359  INFO 185900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 132ms. Found 1 repository interfaces.
+2020-10-14 02:48:22.638  INFO 185900 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 02:48:22.892  INFO 185900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-14 02:48:22.901  INFO 185900 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-14 02:48:22.902  INFO 185900 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-14 02:48:23.041  INFO 185900 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-14 02:48:23.041  INFO 185900 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1573 ms
+2020-10-14 02:48:23.267  INFO 185900 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-14 02:48:23.391  INFO 185900 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-14 02:48:23.575  INFO 185900 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-14 02:48:23.797  INFO 185900 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-14 02:48:24.012  INFO 185900 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-14 02:48:24.028  INFO 185900 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-14 02:48:24.959  INFO 185900 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-14 02:48:24.969  INFO 185900 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-14 02:48:25.356  WARN 185900 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-14 02:48:25.511  INFO 185900 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-14 02:48:25.814  INFO 185900 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-14 02:48:25.824  INFO 185900 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-14 02:48:25.834 ERROR 185900 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-10-14 02:48:25.839  INFO 185900 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-14 02:48:25.840  INFO 185900 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-14 02:48:25.844  INFO 185900 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-14 02:48:25.856  INFO 185900 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-14 02:49:58.870  INFO 184908 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-14 02:49:58.956  INFO 184908 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 184908 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-14 02:49:58.957  INFO 184908 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-14 02:49:59.717  INFO 184908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-14 02:49:59.799  INFO 184908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70ms. Found 1 repository interfaces.
+2020-10-14 02:50:00.187  INFO 184908 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 02:50:00.466  INFO 184908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-14 02:50:00.475  INFO 184908 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-14 02:50:00.475  INFO 184908 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-14 02:50:00.620  INFO 184908 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-14 02:50:00.620  INFO 184908 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1606 ms
+2020-10-14 02:50:00.893  INFO 184908 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-14 02:50:00.986  INFO 184908 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-14 02:50:01.161  INFO 184908 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-14 02:50:01.292  INFO 184908 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-14 02:50:01.697  INFO 184908 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-14 02:50:01.733  INFO 184908 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-14 02:50:02.908  INFO 184908 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-14 02:50:02.915  INFO 184908 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-14 02:50:03.288  WARN 184908 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-14 02:50:03.435  INFO 184908 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-14 02:50:03.715  INFO 184908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-14 02:50:03.718  INFO 184908 --- [main] com.jpa.SpringBootDataJpaApplication     : Started SpringBootDataJpaApplication in 5.27 seconds (JVM running for 7.59)
+2020-10-14 02:50:50.288  INFO 182924 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-14 02:50:50.427  INFO 182924 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 182924 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-14 02:50:50.428  INFO 182924 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-14 02:50:51.190  INFO 182924 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-14 02:50:51.257  INFO 182924 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58ms. Found 1 repository interfaces.
+2020-10-14 02:50:51.560  INFO 182924 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 02:50:51.800  INFO 182924 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-14 02:50:51.808  INFO 182924 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-14 02:50:51.808  INFO 182924 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-14 02:50:51.929  INFO 182924 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-14 02:50:51.930  INFO 182924 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1444 ms
+2020-10-14 02:50:52.193  INFO 182924 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-14 02:50:52.276  INFO 182924 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-14 02:50:52.446  INFO 182924 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-14 02:50:52.718  INFO 182924 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-14 02:50:52.939  INFO 182924 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-14 02:50:52.959  INFO 182924 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-14 02:50:53.920  INFO 182924 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-14 02:50:53.929  INFO 182924 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-14 02:50:54.370  WARN 182924 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-14 02:50:54.516  INFO 182924 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-14 02:50:54.744  INFO 182924 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-14 02:50:54.752  INFO 182924 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-14 02:50:54.760 ERROR 182924 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-10-14 02:50:54.764  INFO 182924 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-14 02:50:54.765  INFO 182924 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-14 02:50:54.768  INFO 182924 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-14 02:50:54.778  INFO 182924 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-14 02:51:26.166  INFO 186420 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-14 02:51:26.255  INFO 186420 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 186420 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-14 02:51:26.255  INFO 186420 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-14 02:51:26.969  INFO 186420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-14 02:51:27.042  INFO 186420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62ms. Found 1 repository interfaces.
+2020-10-14 02:51:27.335  INFO 186420 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 02:51:27.592  INFO 186420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-14 02:51:27.600  INFO 186420 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-14 02:51:27.601  INFO 186420 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-14 02:51:27.734  INFO 186420 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-14 02:51:27.734  INFO 186420 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1423 ms
+2020-10-14 02:51:27.939  INFO 186420 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-14 02:51:28.022  INFO 186420 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-14 02:51:28.168  INFO 186420 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-14 02:51:28.283  INFO 186420 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-14 02:51:28.633  INFO 186420 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-14 02:51:28.653  INFO 186420 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-14 02:51:29.594  INFO 186420 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-14 02:51:29.602  INFO 186420 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-14 02:51:30.031  WARN 186420 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-14 02:51:30.209  INFO 186420 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-14 02:51:30.453  INFO 186420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-14 02:51:30.455  INFO 186420 --- [main] com.jpa.SpringBootDataJpaApplication     : Started SpringBootDataJpaApplication in 4.715 seconds (JVM running for 7.041)
+2020-10-14 02:52:01.664  INFO 186420 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-14 02:52:01.665  INFO 186420 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-14 02:52:01.682  INFO 186420 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2020-10-14 02:52:02.087  INFO 186420 --- [http-nio-8080-exec-2] com.jpa.controller.StudentController     : Student details ::[com.jpa.model.Student@7c4bc1d8]
+2020-10-14 02:53:13.460  INFO 186420 --- [http-nio-8080-exec-4] com.jpa.controller.StudentController     : Updated student  5
+2020-10-14 02:55:42.755  INFO 148212 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-14 02:55:42.875  INFO 148212 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 148212 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-14 02:55:42.877  INFO 148212 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-14 02:55:43.735  INFO 148212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-14 02:55:43.812  INFO 148212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67ms. Found 1 repository interfaces.
+2020-10-14 02:55:44.141  INFO 148212 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 02:55:44.382  INFO 148212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-14 02:55:44.392  INFO 148212 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-14 02:55:44.393  INFO 148212 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-14 02:55:44.518  INFO 148212 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-14 02:55:44.518  INFO 148212 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1576 ms
+2020-10-14 02:55:44.695  INFO 148212 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-14 02:55:44.771  INFO 148212 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-14 02:55:44.914  INFO 148212 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-14 02:55:45.144  INFO 148212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-14 02:55:45.325  INFO 148212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-14 02:55:45.345  INFO 148212 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-14 02:55:46.489  INFO 148212 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-14 02:55:46.499  INFO 148212 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-14 02:55:46.943  WARN 148212 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-14 02:55:47.181  INFO 148212 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-14 02:55:47.486  INFO 148212 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-14 02:55:47.492  INFO 148212 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-14 02:55:47.497 ERROR 148212 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-10-14 02:55:47.499  INFO 148212 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-14 02:55:47.500  INFO 148212 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-14 02:55:47.503  INFO 148212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-14 02:55:47.512  INFO 148212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-14 03:36:25.426  INFO 191112 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-14 03:36:25.613  INFO 191112 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 191112 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-14 03:36:25.614  INFO 191112 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-14 03:36:27.855  INFO 191112 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-14 03:36:28.116  INFO 191112 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 226ms. Found 1 repository interfaces.
+2020-10-14 03:36:28.790  INFO 191112 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 03:36:29.706  INFO 191112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-14 03:36:29.773  INFO 191112 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-14 03:36:29.776  INFO 191112 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-14 03:36:30.236  INFO 191112 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-14 03:36:30.237  INFO 191112 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4569 ms
+2020-10-14 03:36:30.781  INFO 191112 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-14 03:36:31.040  INFO 191112 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-14 03:36:31.976  INFO 191112 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-14 03:36:32.495  INFO 191112 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-14 03:36:33.022  INFO 191112 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-14 03:36:33.093  INFO 191112 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-14 03:36:35.959  INFO 191112 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-14 03:36:35.982  INFO 191112 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-14 03:36:36.411  WARN 191112 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentController': Unsatisfied dependency expressed through field 'studentService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.jpa.service.StudentService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-10-14 03:36:36.411  INFO 191112 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-14 03:36:36.451  INFO 191112 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-14 03:36:36.665  INFO 191112 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-14 03:36:36.670  INFO 191112 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-14 03:36:36.733  INFO 191112 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-14 03:36:37.244 ERROR 191112 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field studentService in com.jpa.controller.StudentController required a bean of type 'com.jpa.service.StudentService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.jpa.service.StudentService' in your configuration.
+
+2020-10-14 03:44:29.244  INFO 187736 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-14 03:44:29.416  INFO 187736 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 187736 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-14 03:44:29.418  INFO 187736 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-14 03:44:30.580  INFO 187736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-14 03:44:30.725  INFO 187736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 125ms. Found 1 repository interfaces.
+2020-10-14 03:44:31.209  INFO 187736 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 03:44:31.648  INFO 187736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-14 03:44:31.665  INFO 187736 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-14 03:44:31.666  INFO 187736 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-14 03:44:31.931  INFO 187736 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-14 03:44:31.932  INFO 187736 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2425 ms
+2020-10-14 03:44:32.253  INFO 187736 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-14 03:44:32.374  INFO 187736 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-14 03:44:32.653  INFO 187736 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-14 03:44:32.879  INFO 187736 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-14 03:44:33.361  INFO 187736 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-14 03:44:33.391  INFO 187736 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-14 03:44:34.909  INFO 187736 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-14 03:44:34.928  INFO 187736 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-14 03:44:35.704  WARN 187736 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentController': Unsatisfied dependency expressed through field 'studentService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.jpa.service.StudentService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-10-14 03:44:35.706  INFO 187736 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-14 03:44:35.711  INFO 187736 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-14 03:44:35.845  INFO 187736 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-14 03:44:35.849  INFO 187736 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-14 03:44:35.873  INFO 187736 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-14 03:44:36.083 ERROR 187736 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field studentService in com.jpa.controller.StudentController required a bean of type 'com.jpa.service.StudentService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.jpa.service.StudentService' in your configuration.
+
+2020-10-14 04:07:24.677  INFO 176804 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-14 04:07:25.752  INFO 176804 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 176804 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-14 04:07:25.754  INFO 176804 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-14 04:07:28.330  INFO 176804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-14 04:07:28.588  INFO 176804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 240ms. Found 1 repository interfaces.
+2020-10-14 04:07:28.995  INFO 176804 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 04:07:29.485  INFO 176804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-14 04:07:29.528  INFO 176804 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-14 04:07:29.529  INFO 176804 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-14 04:07:30.074  INFO 176804 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-14 04:07:30.075  INFO 176804 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4086 ms
+2020-10-14 04:07:30.647  INFO 176804 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-14 04:07:30.975  INFO 176804 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-14 04:07:31.624  INFO 176804 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-14 04:07:32.048  INFO 176804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-14 04:07:32.538  INFO 176804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-14 04:07:32.621  INFO 176804 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-14 04:07:36.082  INFO 176804 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-14 04:07:36.108  INFO 176804 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-14 04:07:36.867  WARN 176804 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-14 04:07:37.770  INFO 176804 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-14 04:07:38.783  INFO 176804 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-14 04:07:38.856  INFO 176804 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-14 04:07:38.861 ERROR 176804 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-10-14 04:07:38.863  INFO 176804 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-14 04:07:38.864  INFO 176804 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-14 04:07:38.866  INFO 176804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-14 04:07:38.877  INFO 176804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-10-14 04:08:46.089  INFO 190604 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.2.1.RELEASE)[0;39m
+
+
+2020-10-14 04:08:46.234  INFO 190604 --- [main] com.jpa.SpringBootDataJpaApplication     : Starting SpringBootDataJpaApplication on A042WLTRV with PID 190604 (C:\StudentSpringDataJpaDemo\target\classes started by U65617 in C:\StudentSpringDataJpaDemo)
+2020-10-14 04:08:46.235  INFO 190604 --- [main] com.jpa.SpringBootDataJpaApplication     : No active profile set, falling back to default profiles: default
+2020-10-14 04:08:47.144  INFO 190604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-14 04:08:47.223  INFO 190604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65ms. Found 1 repository interfaces.
+2020-10-14 04:08:47.595  INFO 190604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 04:08:48.016  INFO 190604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-14 04:08:48.041  INFO 190604 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-14 04:08:48.041  INFO 190604 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-10-14 04:08:48.234  INFO 190604 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-14 04:08:48.235  INFO 190604 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1940 ms
+2020-10-14 04:08:48.579  INFO 190604 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-14 04:08:48.719  INFO 190604 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-14 04:08:49.201  INFO 190604 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-14 04:08:49.436  INFO 190604 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-14 04:08:49.814  INFO 190604 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-14 04:08:49.851  INFO 190604 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-10-14 04:08:50.922  INFO 190604 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-14 04:08:50.930  INFO 190604 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-14 04:08:51.298  WARN 190604 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-14 04:08:51.474  INFO 190604 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-14 04:08:51.718  INFO 190604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-14 04:08:51.721  INFO 190604 --- [main] com.jpa.SpringBootDataJpaApplication     : Started SpringBootDataJpaApplication in 6.303 seconds (JVM running for 9.082)
+2020-10-14 04:09:39.060  INFO 190604 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-14 04:09:39.060  INFO 190604 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-14 04:09:39.087  INFO 190604 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 27 ms
+2020-10-14 04:09:39.508  INFO 190604 --- [http-nio-8080-exec-2] com.jpa.controller.StudentController     : Inserted data into Student Table
+2020-10-14 04:10:35.946  INFO 190604 --- [http-nio-8080-exec-3] com.jpa.controller.StudentController     : Student details ::[com.jpa.model.Student@562341a, com.jpa.model.Student@1d6c4d8a, com.jpa.model.Student@11a77c04]
+2020-10-14 04:11:37.924  INFO 190604 --- [http-nio-8080-exec-5] com.jpa.controller.StudentController     : Updated student  5
