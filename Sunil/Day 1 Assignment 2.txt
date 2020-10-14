@@ -1,0 +1,506 @@
+1. Write a program to take a integer as input Print the sum of digits of the number?
+   ex 9999 - 36 - 9
+
+public class SumOfDigits {
+	 /* Function to get sum of digits */
+	   static int getSum(int n) 
+	    {     
+	        int sum = 0; 
+	          
+	        while (n != 0) 
+	        { 
+	            sum = sum + n % 10; 
+	            n = n/10; 
+	        } 
+	      
+	    return sum; 
+	    } 
+	  
+	    // Driver program 
+	    public static void main(String[] args) 
+	    { 
+	        int n = 53738; 
+	  
+	        System.out.println(getSum(n)); 
+	    } 
+
+}
+=============================================================================================================================================================================================
+2. Write a program to display the factorial of numbers from 1 to the input number?
+   Take input using scanner? Also display if the factorial is a prime number or not?
+import java.util.Scanner;
+
+public class FactorialAndPrimeNum {
+
+	public static void main(String args[])
+	  {
+	    int n, c, f = 1;
+
+	    System.out.println("Enter an integer to calculate its factorial");
+	    Scanner in = new Scanner(System.in);
+
+	    n = in.nextInt();
+
+	    if (n < 0)
+	      System.out.println("Number should be non-negative.");
+	    else
+	    {
+	      for (c = 1; c <= n; c++)
+	        f = f*c;
+
+	      System.out.println("Factorial of "+n+" is "+f);
+	    }
+	    boolean flag = false;
+	    for(int j = 2; j <= f/2; ++j)
+	    {
+	    	if(f%j == 0)
+	    	{
+	    		flag = true;
+	    		break;
+	    	}	
+	    } 
+	    if(!flag)
+	    	System.out.println(f+" is a prime number");
+	    else
+	    	System.out.println(f+" not a prime number");
+	  }
+}
+=============================================================================================================================================================================================
+3. Write a program to display number of days in a month? Month Name(String) and
+   year should be taken as input? Leap year should be considered?
+package BasicsAssignment2;
+
+import java.util.Scanner;
+
+public class CalendarDemo {
+
+	public static void main(String[] args)
+	{
+		int year,Days;
+		String month;
+		System.out.println("Please month and year in the format of 'jan 2020' : ");
+		Scanner sc = new Scanner(System.in);
+		month = sc.next();
+		year = sc.nextInt();
+		switch (month) {
+        case "January":
+            Days = 31;
+            System.out.print("Number of days is 29");
+            break;
+        case "February" :
+            if ((year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0))) {
+                Days = 29;
+                System.out.print("Number of days is 29");
+            		
+            } else {
+                Days = 28;
+                System.out.print("Number of days is 28");
+            }
+            break;
+        case "March":
+            Days = 31;
+            System.out.print("Number of days is 31");
+            break;
+        case "April":
+            Days = 30;
+            System.out.print("Number of days is 30");
+            break;
+        case "May":
+            Days = 31;
+            System.out.print("Number of days is 31");
+            break;
+        case "June":
+            Days = 30;
+            System.out.print("Number of days is 30");
+            break;
+        case "July":
+            Days = 31;
+            System.out.print("Number of days is 31");
+            break;
+        case "August":
+            Days = 31;
+            System.out.print("Number of days is 31");
+            break;
+        case "September":
+            Days = 30;
+            System.out.print("Number of days is 30");
+            break;
+        case "October":
+            Days = 31;
+            System.out.print("Number of days is 31");
+            break;
+        case "November":
+            Days = 30;
+            System.out.print("Number of days is 30");
+            break;
+        case "December":
+            Days = 31;
+            System.out.print("Number of days is 31");
+    }
+	}
+}
+=============================================================================================================================================================================================
+
+4. Write a program to print first 10 natural numbers
+public class NaturalNumbers 
+{
+	public static void main(String[] args)
+    { 
+		int i;
+		System.out.println ("The first 10 natural numbers are:\n");
+		for (i=1;i<=10;i++)
+		{
+			System.out.println (i);
+		}
+		System.out.println ("\n");
+    }
+}
+=============================================================================================================================================================================================
+5. Write a program to print first 10 natural numbers in reverse order
+public static void main(String[] args)
+    { 
+		int i;
+		System.out.println ("The first 10 natural numbers are:\n");
+		for (i=1;i<=10;i++)
+		{
+			System.out.println (i);
+		}
+		System.out.println ("\n");
+    }
+=============================================================================================================================================================================================
+6. Write a program to print first 10 even natural numbers
+public class EvenNumbers 
+{
+	public static void main(String args[]) 
+	{
+		int n = 10;
+		System.out.print("Even Numbers from 1 to "+n+" are: ");
+		for (int i = 1; i <= n; i++) 
+		{
+			if (i % 2 == 0) 
+				System.out.print(i + " ");
+		
+		}
+	}
+}
+=============================================================================================================================================================================================
+7. Write a program to print numbers between the range ( say 10 to 100 OR 100 to 200 etc.,)
+import java.util.*;
+
+public class RangeOfNumbers 
+{
+	public static void main(String [] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the staring number of the series : ");
+		int start = sc.nextInt();
+		System.out.println("Enter the ending number of the series : ");
+		int end = sc.nextInt();
+		System.out.println("Numbers between "+start+" and "+end+" are : ");
+		for(int i = start ;i <= end; i++)
+			System.out.print(i+" ");
+	}
+}
+=============================================================================================================================================================================================
+8. Write a program to print mathematical table of given number
+import java.util.Scanner;
+
+public class MathematicalTable 
+{
+	public static void main(String[] args) 
+    {
+        Scanner s = new Scanner(System.in);
+        System.out.print("Enter number:");        
+        int n=s.nextInt();
+        for(int i=1; i <= 10; i++)
+        {
+            System.out.println(n+" * "+i+" = "+n*i);
+        }
+    }
+}
+=============================================================================================================================================================================================
+9. Write a program to find whether the given number is prime or not.
+import java.util.Scanner;
+
+public class PrimeNumbersDemo 
+{
+	 public static void main(String args[])
+	 {    
+		  int i,m=0,flag=0;      
+		  System.out.println("Enter the number : ");
+		  Scanner sc = new Scanner(System.in);
+		  int n= sc.nextInt();
+		  m=n/2;      
+		  if(n==0||n==1)
+			  System.out.println(n+" is not prime number");      
+		  else
+		  {
+			  for(i=2;i<=m;i++)
+			  {
+				  if(n%i==0)
+				  {
+					  System.out.println(n+" is not prime number");
+					  flag=1;
+					  break;      
+				  }      
+			  }      
+		   if(flag==0)  
+			   System.out.println(n+" is prime number");   
+		  } 
+	 }    
+}
+=============================================================================================================================================================================================
+10. Write a program to print prime numbers between 2 to 100
+import java.util.Scanner;
+public class RangeOfPrimeNumbers {
+
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter Starting Number : ");
+		int start = sc.nextInt();
+		System.out.print("Enter Ending Number : ");
+		int end = sc.nextInt();
+		System.out.println("Prime numbers between "+start+" and "+end+" are : ");
+		int count;
+		for(int i = start ; i <= end ; i++)
+		{
+			count = 0;
+			for(int j = 1 ; j <= i ; j++)	
+			{
+				if(i % j == 0)
+					count = count+1;
+			}
+			if(count == 2)
+				System.out.print(i+" ");
+		}
+		sc.close();
+	}
+}
+=============================================================================================================================================================================================
+11. Write a program to get reverse of given number
+import java.util.Scanner;
+
+public class ReverseNumber {
+
+	public static void main(String args[])
+	  {
+	    int n, reverse = 0;
+
+	    System.out.println("Enter an integer to reverse");
+	    Scanner in = new Scanner(System.in);
+	    n = in.nextInt();
+
+	    while(n != 0)
+	    {
+	      reverse = reverse * 10;
+	      reverse = reverse + n%10;
+	      n = n/10;
+	    }
+
+	    System.out.println("Reverse of the number is " + reverse);
+	  }
+}
+=============================================================================================================================================================================================
+12. Write a program to find whether the given number is  palindrome or not
+public class PalindromeNumber {
+	public static void main(String args[])
+	{  
+		  int r,sum=0,temp;    
+		  int n=200;
+		  
+		  temp=n;    
+		  while(n>0){    
+		   r=n%10;    
+		   sum=(sum*10)+r;    
+		   n=n/10;    
+		  }    
+		  if(temp==sum)    
+		   System.out.println("palindrome number ");    
+		  else    
+		   System.out.println("not palindrome");    
+	}  
+
+}
+=============================================================================================================================================================================================
+13. Write a program to find factorial of given number
+public class FactorialDemo {
+	 public static void main(String args[]){  
+		  int i,fact=1;  
+		  int number=6;
+		  for(i=1;i<=number;i++){    
+		      fact=fact*i;    
+		  }    
+		  System.out.println("Factorial of "+number+" is: "+fact);    
+	 } 
+}
+=============================================================================================================================================================================================
+14. Write a program to find ncr. Hint : ncr = ( n! / ( (n-r)! * r!)
+public class NCRDemo {
+	static int nCr(int n, int r) 
+	{ 
+	    return fact(n) / (fact(r) * 
+	                  fact(n - r)); 
+	} 
+	  
+	// Returns factorial of n 
+	static int fact(int n) 
+	{ 
+	    int res = 1; 
+	    for (int i = 2; i <= n; i++) 
+	        res = res * i; 
+	    return res; 
+	} 
+	  
+	 
+	public static void main(String[] args) 
+	{ 
+	    int n = 5, r = 3; 
+	    System.out.println(nCr(n, r)); 
+	} 
+
+}
+=============================================================================================================================================================================================
+18. Write a program to convert given digit into the word format.
+  a. If i/p is 1 -> output : One
+  b. If i/p is 2 -> output : Two etc.,
+public class NumberConvertWords1 {
+	static void convert_to_words(char[] num)
+	{
+	   int len = num.length; 
+	   if (len == 0) 
+	    {
+	        System.out.println("empty string");
+	        return;
+	    }
+	    
+	    String[] single_digits = new String[]{ "zero", "one", 
+	                                        "two", "three", "four",
+	                                        "five", "six", "seven", 
+	                                            "eight", "nine"};
+	 
+	    System.out.print(String.valueOf(num)+": ");
+	    if (len == 1) 
+	    {
+	        System.out.println(single_digits[num[0] - '0']);
+	        return;
+	    }
+	    int x = 0;
+	    while (x < num.length) 
+	    {
+	        if (len >= 3)
+	        {
+	            if (num[x]-'0' != 0)
+	            {
+	                System.out.print(single_digits[num[x] - '0']+" ");
+	                	               
+	            }
+	            --len;
+	        }
+	 
+	         ++x;
+	    }
+	}
+
+	public static void main(String[] args)
+	{
+		convert_to_words("3".toCharArray());
+		convert_to_words("4".toCharArray());
+		convert_to_words("7".toCharArray());
+		convert_to_words("8".toCharArray());
+	}
+}
+=============================================================================================================================================================================================
+19. Write a program to convert given number into word format.
+   a. If i/p is 123 -> output : One Hundred Twenty Three
+   
+   public class NumberConvertWords2 {
+	static void convert_to_words(char[] num)
+	{
+	   int len = num.length; 
+	   if (len == 0) 
+	    {
+	        System.out.println("empty string");
+	        return;
+	    }
+	    if (len > 3) 
+	    {
+	        System.out.println("Length more than 3 is not supported");
+	        return;
+	    }
+	    String[] single_digits = new String[]{ "zero", "one", 
+	                                        "two", "three", "four",
+	                                        "five", "six", "seven", 
+	                                            "eight", "nine"};
+	 
+	    String[] two_digits = new String[]{"", "ten", "eleven", "twelve", 
+	                                        "thirteen", "fourteen",
+	                                        "fifteen", "sixteen", "seventeen",
+	                                        "eighteen", "nineteen"};
+	 
+	   
+	    String[] tens_multiple = new String[]{"", "", "twenty", "thirty", "forty", 
+	                                            "fifty","sixty", "seventy", 
+	                                            "eighty", "ninety"};
+	 
+	    String[] tens_power = new String[] {"hundred"};
+	 
+	    System.out.print(String.valueOf(num)+": ");
+	    if (len == 1) 
+	    {
+	        System.out.println(single_digits[num[0] - '0']);
+	        return;
+	    }
+	    int x = 0;
+	    while (x < num.length) 
+	    {
+	        if (len >= 3)
+	        {
+	            if (num[x]-'0' != 0)
+	            {
+	                System.out.print(single_digits[num[x] - '0']+" ");
+	                System.out.print(tens_power[len - 3]+" "); 
+	               
+	            }
+	            --len;
+	        }
+	 
+	        else
+	        {
+	           
+	            if (num[x] - '0' == 1) 
+	            {
+	                int sum = num[x] - '0' + 
+	                    num[x] - '0';
+	                System.out.println(two_digits[sum]);
+	                return;
+	            }
+	            else if (num[x] - '0' == 2 && 
+	                    num[x + 1] - '0' == 0)
+	            {
+	                System.out.println("twenty");
+	                return;
+	            }
+	            else
+	            {
+	                int i = (num[x] - '0');
+	                if(i > 0)
+	                System.out.print(tens_multiple[i]+" ");
+	                else
+	                System.out.print("");
+	                ++x;
+	                if (num[x] - '0' != 0)
+	                    System.out.println(single_digits[num[x] - '0']);
+	            }
+	        }
+	        ++x;
+	    }
+	}
+
+	public static void main(String[] args)
+	{
+		convert_to_words("235".toCharArray());
+		convert_to_words("566".toCharArray());
+		convert_to_words("800".toCharArray());
+		convert_to_words("100".toCharArray());
+	}
