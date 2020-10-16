@@ -1,0 +1,271 @@
+2020-10-16 09:54:35.869  INFO 5656 --- [main] com.EcommerceProjectApplication          : Starting EcommerceProjectApplication on DESKTOP-SUBLFE5 with PID 5656 (C:\Users\Justine\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\EcommerceProject\target\classes started by Justine in C:\Users\Justine\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\EcommerceProject)
+2020-10-16 09:54:35.888  INFO 5656 --- [main] com.EcommerceProjectApplication          : No active profile set, falling back to default profiles: default
+2020-10-16 09:54:38.162  INFO 5656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-10-16 09:54:39.035  INFO 5656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 859ms. Found 1 MongoDB repository interfaces.
+2020-10-16 09:54:39.355  INFO 5656 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$7815f75] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-16 09:54:39.472  INFO 5656 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-10-16 09:54:39.934  INFO 5656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-16 09:54:39.945  INFO 5656 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-16 09:54:39.946  INFO 5656 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 09:54:40.100  INFO 5656 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-16 09:54:40.101  INFO 5656 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4080 ms
+2020-10-16 09:54:40.430  INFO 5656 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-10-16 09:54:40.663  INFO 5656 --- [cluster-ClusterId{value='5f892088f6538a1c14804661', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:86}] to localhost:27017
+2020-10-16 09:54:40.700  INFO 5656 --- [cluster-ClusterId{value='5f892088f6538a1c14804661', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=27232900}
+2020-10-16 09:54:41.992  INFO 5656 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 09:54:42.299  INFO 5656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 09:54:42.310  INFO 5656 --- [main] com.EcommerceProjectApplication          : Started EcommerceProjectApplication in 6.988 seconds (JVM running for 9.126)
+2020-10-16 09:56:48.376  INFO 5656 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 09:56:48.377  INFO 5656 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-16 09:56:48.385  INFO 5656 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-10-16 09:56:48.504  INFO 5656 --- [http-nio-8080-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:87}] to localhost:27017
+2020-10-16 12:51:19.475  INFO 11900 --- [main] com.EcommerceProjectApplication          : Starting EcommerceProjectApplication on DESKTOP-SUBLFE5 with PID 11900 (C:\Users\Justine\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\EcommerceProject\target\classes started by Justine in C:\Users\Justine\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\EcommerceProject)
+2020-10-16 12:51:19.485  INFO 11900 --- [main] com.EcommerceProjectApplication          : No active profile set, falling back to default profiles: default
+2020-10-16 12:51:21.492  INFO 11900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-10-16 12:51:22.334  INFO 11900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 836ms. Found 1 MongoDB repository interfaces.
+2020-10-16 12:51:22.625  INFO 11900 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$12354c38] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-16 12:51:22.739  INFO 11900 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-10-16 12:51:23.046  INFO 11900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-16 12:51:23.056  INFO 11900 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-16 12:51:23.057  INFO 11900 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 12:51:23.202  INFO 11900 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-16 12:51:23.203  INFO 11900 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3649 ms
+2020-10-16 12:51:23.399  INFO 11900 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-10-16 12:51:23.494  INFO 11900 --- [cluster-ClusterId{value='5f8949f3342a7d3effdfb0b8', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:88}] to localhost:27017
+2020-10-16 12:51:23.507  INFO 11900 --- [cluster-ClusterId{value='5f8949f3342a7d3effdfb0b8', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5794700}
+2020-10-16 12:51:24.438  INFO 11900 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 12:51:24.700  WARN 11900 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2020-10-16 12:51:24.723  INFO 11900 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-16 12:51:24.729  INFO 11900 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-16 12:51:24.746  INFO 11900 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-16 12:51:24.753 ERROR 11900 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-10-16 12:51:30.185  INFO 5656 --- [RMI TCP Connection(187)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-10-16 12:51:30.671  INFO 5656 --- [RMI TCP Connection(187)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-16 12:51:30.764  INFO 5656 --- [RMI TCP Connection(187)-127.0.0.1] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:87}] to localhost:27017 because the pool has been closed.
+2020-10-16 12:51:49.543  INFO 14656 --- [main] com.EcommerceProjectApplication          : Starting EcommerceProjectApplication on DESKTOP-SUBLFE5 with PID 14656 (C:\Users\Justine\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\EcommerceProject\target\classes started by Justine in C:\Users\Justine\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\EcommerceProject)
+2020-10-16 12:51:49.547  INFO 14656 --- [main] com.EcommerceProjectApplication          : No active profile set, falling back to default profiles: default
+2020-10-16 12:51:51.477  INFO 14656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-10-16 12:51:52.303  INFO 14656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 821ms. Found 1 MongoDB repository interfaces.
+2020-10-16 12:51:52.589  INFO 14656 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$51a445d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-16 12:51:52.679  INFO 14656 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-10-16 12:51:53.004  INFO 14656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-16 12:51:53.014  INFO 14656 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-16 12:51:53.014  INFO 14656 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 12:51:53.157  INFO 14656 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-16 12:51:53.158  INFO 14656 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3516 ms
+2020-10-16 12:51:53.351  INFO 14656 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-10-16 12:51:53.416  INFO 14656 --- [cluster-ClusterId{value='5f894a1133351265907fd9a6', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:89}] to localhost:27017
+2020-10-16 12:51:53.442  INFO 14656 --- [cluster-ClusterId{value='5f894a1133351265907fd9a6', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6103400}
+2020-10-16 12:51:54.384  INFO 14656 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 12:51:54.652  INFO 14656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 12:51:54.663  INFO 14656 --- [main] com.EcommerceProjectApplication          : Started EcommerceProjectApplication in 5.639 seconds (JVM running for 7.545)
+2020-10-16 12:52:33.759  INFO 14656 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 12:52:33.759  INFO 14656 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-16 12:52:33.769  INFO 14656 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-10-16 12:53:06.497  INFO 14656 --- [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-10-16 12:53:06.614  INFO 14656 --- [RMI TCP Connection(8)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-16 12:53:23.749  INFO 8780 --- [main] com.EcommerceProjectApplication          : Starting EcommerceProjectApplication on DESKTOP-SUBLFE5 with PID 8780 (C:\Users\Justine\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\EcommerceProject\target\classes started by Justine in C:\Users\Justine\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\EcommerceProject)
+2020-10-16 12:53:23.753  INFO 8780 --- [main] com.EcommerceProjectApplication          : No active profile set, falling back to default profiles: default
+2020-10-16 12:53:25.816  INFO 8780 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-10-16 12:53:26.640  INFO 8780 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 818ms. Found 1 MongoDB repository interfaces.
+2020-10-16 12:53:26.879  INFO 8780 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$110ddc00] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-16 12:53:26.948  INFO 8780 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-10-16 12:53:27.273  INFO 8780 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-16 12:53:27.283  INFO 8780 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-16 12:53:27.284  INFO 8780 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 12:53:27.425  INFO 8780 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-16 12:53:27.425  INFO 8780 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3554 ms
+2020-10-16 12:53:27.659  INFO 8780 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-10-16 12:53:27.773  INFO 8780 --- [cluster-ClusterId{value='5f894a6ffc8584087c002c63', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:90}] to localhost:27017
+2020-10-16 12:53:27.793  INFO 8780 --- [cluster-ClusterId{value='5f894a6ffc8584087c002c63', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=10140500}
+2020-10-16 12:53:28.791  INFO 8780 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 12:53:29.071  INFO 8780 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 12:53:29.081  INFO 8780 --- [main] com.EcommerceProjectApplication          : Started EcommerceProjectApplication in 5.76 seconds (JVM running for 7.33)
+2020-10-16 12:53:38.069  INFO 8780 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 12:53:38.069  INFO 8780 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-16 12:53:38.083  INFO 8780 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-10-16 12:53:38.386  INFO 8780 --- [http-nio-8080-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:91}] to localhost:27017
+2020-10-16 13:19:40.082  INFO 8780 --- [RMI TCP Connection(36)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-10-16 13:19:40.187  INFO 8780 --- [RMI TCP Connection(36)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-16 13:19:40.194  INFO 8780 --- [RMI TCP Connection(36)-127.0.0.1] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:91}] to localhost:27017 because the pool has been closed.
+2020-10-16 13:31:00.365  INFO 11092 --- [main] com.EcommerceProjectApplication          : Starting EcommerceProjectApplication on DESKTOP-SUBLFE5 with PID 11092 (C:\Users\Justine\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\EcommerceProject\target\classes started by Justine in C:\Users\Justine\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\EcommerceProject)
+2020-10-16 13:31:00.379  INFO 11092 --- [main] com.EcommerceProjectApplication          : No active profile set, falling back to default profiles: default
+2020-10-16 13:31:02.454  INFO 11092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-10-16 13:31:03.352  INFO 11092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 892ms. Found 1 MongoDB repository interfaces.
+2020-10-16 13:31:03.603  INFO 11092 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$81427839] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-16 13:31:03.699  INFO 11092 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-10-16 13:31:04.030  INFO 11092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-16 13:31:04.044  INFO 11092 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-16 13:31:04.045  INFO 11092 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 13:31:04.199  INFO 11092 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-16 13:31:04.199  INFO 11092 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3729 ms
+2020-10-16 13:31:04.405  INFO 11092 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-10-16 13:31:04.475  INFO 11092 --- [cluster-ClusterId{value='5f8953401ee56278c601415e', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:92}] to localhost:27017
+2020-10-16 13:31:04.495  INFO 11092 --- [cluster-ClusterId{value='5f8953401ee56278c601415e', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=14464500}
+2020-10-16 13:31:05.424  INFO 11092 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 13:31:05.728  INFO 11092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 13:31:05.738  INFO 11092 --- [main] com.EcommerceProjectApplication          : Started EcommerceProjectApplication in 5.869 seconds (JVM running for 7.539)
+2020-10-16 13:31:26.466  INFO 11092 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 13:31:26.467  INFO 11092 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-16 13:31:26.477  INFO 11092 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-10-16 13:31:26.764  INFO 11092 --- [http-nio-8080-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:93}] to localhost:27017
+2020-10-16 14:04:53.880  INFO 11092 --- [RMI TCP Connection(42)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-10-16 14:04:53.990  INFO 11092 --- [RMI TCP Connection(42)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-16 14:04:53.998  INFO 11092 --- [RMI TCP Connection(42)-127.0.0.1] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:93}] to localhost:27017 because the pool has been closed.
+2020-10-16 14:38:02.166  INFO 15928 --- [main] com.EcommerceProjectApplication          : Starting EcommerceProjectApplication on DESKTOP-SUBLFE5 with PID 15928 (C:\Users\Justine\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\EcommerceProject\target\classes started by Justine in C:\Users\Justine\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\EcommerceProject)
+2020-10-16 14:38:02.172  INFO 15928 --- [main] com.EcommerceProjectApplication          : No active profile set, falling back to default profiles: default
+2020-10-16 14:38:04.398  INFO 15928 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-10-16 14:38:05.301  INFO 15928 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 896ms. Found 1 MongoDB repository interfaces.
+2020-10-16 14:38:05.580  INFO 15928 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$6f4869f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-16 14:38:05.662  INFO 15928 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-10-16 14:38:06.026  INFO 15928 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-16 14:38:06.039  INFO 15928 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-16 14:38:06.039  INFO 15928 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 14:38:06.200  INFO 15928 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-16 14:38:06.201  INFO 15928 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3921 ms
+2020-10-16 14:38:06.410  INFO 15928 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-10-16 14:38:06.487  INFO 15928 --- [cluster-ClusterId{value='5f8962f630d2577b24aef08e', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:106}] to localhost:27017
+2020-10-16 14:38:06.499  INFO 15928 --- [cluster-ClusterId{value='5f8962f630d2577b24aef08e', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5537000}
+2020-10-16 14:38:07.505  INFO 15928 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 14:38:07.807  INFO 15928 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 14:38:07.819  INFO 15928 --- [main] com.EcommerceProjectApplication          : Started EcommerceProjectApplication in 6.197 seconds (JVM running for 7.75)
+2020-10-16 14:38:29.598  INFO 15928 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 14:38:29.598  INFO 15928 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-16 14:38:29.605  INFO 15928 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-10-16 14:38:29.705  INFO 15928 --- [http-nio-8080-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:107}] to localhost:27017
+2020-10-16 14:41:25.163  INFO 15928 --- [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-10-16 14:41:25.259  INFO 15928 --- [RMI TCP Connection(8)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-16 14:41:25.267  INFO 15928 --- [RMI TCP Connection(8)-127.0.0.1] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:107}] to localhost:27017 because the pool has been closed.
+2020-10-16 14:41:45.815  INFO 14108 --- [main] com.EcommerceProjectApplication          : Starting EcommerceProjectApplication on DESKTOP-SUBLFE5 with PID 14108 (C:\Users\Justine\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\EcommerceProject\target\classes started by Justine in C:\Users\Justine\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\EcommerceProject)
+2020-10-16 14:41:45.819  INFO 14108 --- [main] com.EcommerceProjectApplication          : No active profile set, falling back to default profiles: default
+2020-10-16 14:41:48.041  INFO 14108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-10-16 14:41:49.215  INFO 14108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1160ms. Found 1 MongoDB repository interfaces.
+2020-10-16 14:41:49.536  INFO 14108 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a0ff795] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-16 14:41:49.607  INFO 14108 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-10-16 14:41:49.904  INFO 14108 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-16 14:41:49.914  INFO 14108 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-16 14:41:49.915  INFO 14108 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 14:41:50.086  INFO 14108 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-16 14:41:50.086  INFO 14108 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4158 ms
+2020-10-16 14:41:50.350  INFO 14108 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-10-16 14:41:50.435  INFO 14108 --- [cluster-ClusterId{value='5f8963d61f83101aec579e08', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:108}] to localhost:27017
+2020-10-16 14:41:50.448  INFO 14108 --- [cluster-ClusterId{value='5f8963d61f83101aec579e08', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=7201600}
+2020-10-16 14:41:51.392  INFO 14108 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 14:41:51.685  INFO 14108 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 14:41:51.698  INFO 14108 --- [main] com.EcommerceProjectApplication          : Started EcommerceProjectApplication in 6.353 seconds (JVM running for 7.836)
+2020-10-16 14:41:59.111  INFO 14108 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 14:41:59.112  INFO 14108 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-16 14:41:59.130  INFO 14108 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2020-10-16 14:41:59.315  INFO 14108 --- [http-nio-8080-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:109}] to localhost:27017
+2020-10-16 15:18:01.379  INFO 14108 --- [RMI TCP Connection(46)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-10-16 15:18:01.610  INFO 14108 --- [RMI TCP Connection(46)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-16 15:18:01.629  INFO 14108 --- [RMI TCP Connection(46)-127.0.0.1] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:109}] to localhost:27017 because the pool has been closed.
+2020-10-16 15:18:20.658  INFO 11948 --- [main] com.EcommerceProjectApplication          : Starting EcommerceProjectApplication on DESKTOP-SUBLFE5 with PID 11948 (C:\Users\Justine\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\EcommerceProject\target\classes started by Justine in C:\Users\Justine\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\EcommerceProject)
+2020-10-16 15:18:20.662  INFO 11948 --- [main] com.EcommerceProjectApplication          : No active profile set, falling back to default profiles: default
+2020-10-16 15:18:22.735  INFO 11948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-10-16 15:18:23.667  INFO 11948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 925ms. Found 1 MongoDB repository interfaces.
+2020-10-16 15:18:23.930  INFO 11948 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$6f4869f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-16 15:18:24.004  INFO 11948 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-10-16 15:18:24.540  INFO 11948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-16 15:18:24.563  INFO 11948 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-16 15:18:24.567  INFO 11948 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 15:18:24.828  INFO 11948 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-16 15:18:24.829  INFO 11948 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4065 ms
+2020-10-16 15:18:25.187  INFO 11948 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-10-16 15:18:25.349  INFO 11948 --- [cluster-ClusterId{value='5f896c6908dd7e68e9f80114', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:110}] to localhost:27017
+2020-10-16 15:18:25.380  INFO 11948 --- [cluster-ClusterId{value='5f896c6908dd7e68e9f80114', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=19460100}
+2020-10-16 15:18:26.547  INFO 11948 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 15:18:26.853  INFO 11948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 15:18:26.864  INFO 11948 --- [main] com.EcommerceProjectApplication          : Started EcommerceProjectApplication in 6.658 seconds (JVM running for 8.349)
+2020-10-16 15:18:47.049  INFO 11948 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 15:18:47.051  INFO 11948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-16 15:18:47.064  INFO 11948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-10-16 15:18:47.081  WARN 11948 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2020-10-16 15:18:57.360  INFO 11948 --- [http-nio-8080-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:111}] to localhost:27017
+2020-10-16 15:54:00.722  INFO 11948 --- [RMI TCP Connection(45)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-10-16 15:54:01.023  INFO 11948 --- [RMI TCP Connection(45)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-16 15:54:01.047  INFO 11948 --- [RMI TCP Connection(45)-127.0.0.1] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:111}] to localhost:27017 because the pool has been closed.
+2020-10-16 15:54:24.499  INFO 19820 --- [main] com.EcommerceProjectApplication          : Starting EcommerceProjectApplication on DESKTOP-SUBLFE5 with PID 19820 (C:\Users\Justine\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\EcommerceProject\target\classes started by Justine in C:\Users\Justine\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\EcommerceProject)
+2020-10-16 15:54:24.510  INFO 19820 --- [main] com.EcommerceProjectApplication          : No active profile set, falling back to default profiles: default
+2020-10-16 15:54:28.169  INFO 19820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-10-16 15:54:32.645  INFO 19820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4464ms. Found 1 MongoDB repository interfaces.
+2020-10-16 15:54:33.148  INFO 19820 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$daa04f34] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-16 15:54:33.338  INFO 19820 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-10-16 15:54:33.990  INFO 19820 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-16 15:54:34.016  INFO 19820 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-16 15:54:34.019  INFO 19820 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 15:54:34.478  INFO 19820 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-16 15:54:34.478  INFO 19820 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9821 ms
+2020-10-16 15:54:35.148  INFO 19820 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-10-16 15:54:35.810  INFO 19820 --- [cluster-ClusterId{value='5f8974e3b5a321038aa43fbe', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:122}] to localhost:27017
+2020-10-16 15:54:35.825  INFO 19820 --- [cluster-ClusterId{value='5f8974e3b5a321038aa43fbe', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5854800}
+2020-10-16 15:54:41.924  INFO 19820 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 15:54:42.565  INFO 19820 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 15:54:42.786  INFO 19820 --- [main] com.EcommerceProjectApplication          : Started EcommerceProjectApplication in 18.964 seconds (JVM running for 21.351)
+2020-10-16 15:54:49.667  INFO 19820 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 15:54:49.668  INFO 19820 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-16 15:54:49.688  INFO 19820 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2020-10-16 15:54:50.119  INFO 19820 --- [http-nio-8080-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:123}] to localhost:27017
+2020-10-16 16:27:32.418  INFO 19820 --- [RMI TCP Connection(46)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-10-16 16:27:32.598  INFO 19820 --- [RMI TCP Connection(46)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-16 16:27:32.628  INFO 19820 --- [RMI TCP Connection(46)-127.0.0.1] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:123}] to localhost:27017 because the pool has been closed.
+2020-10-16 16:27:51.778  INFO 7412 --- [main] com.EcommerceProjectApplication          : Starting EcommerceProjectApplication on DESKTOP-SUBLFE5 with PID 7412 (C:\Users\Justine\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\EcommerceProject\target\classes started by Justine in C:\Users\Justine\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\EcommerceProject)
+2020-10-16 16:27:51.784  INFO 7412 --- [main] com.EcommerceProjectApplication          : No active profile set, falling back to default profiles: default
+2020-10-16 16:27:53.955  INFO 7412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-10-16 16:27:55.096  INFO 7412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1135ms. Found 1 MongoDB repository interfaces.
+2020-10-16 16:27:55.381  INFO 7412 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$8bb730fe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-16 16:27:55.473  INFO 7412 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-10-16 16:27:55.827  INFO 7412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-16 16:27:55.837  INFO 7412 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-16 16:27:55.839  INFO 7412 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 16:27:56.028  INFO 7412 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-16 16:27:56.028  INFO 7412 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4105 ms
+2020-10-16 16:27:56.252  INFO 7412 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-10-16 16:27:56.341  INFO 7412 --- [cluster-ClusterId{value='5f897cb4b500134a58e6ac9f', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:124}] to localhost:27017
+2020-10-16 16:27:56.358  INFO 7412 --- [cluster-ClusterId{value='5f897cb4b500134a58e6ac9f', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=9682700}
+2020-10-16 16:27:57.433  INFO 7412 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 16:27:57.744  INFO 7412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 16:27:57.758  INFO 7412 --- [main] com.EcommerceProjectApplication          : Started EcommerceProjectApplication in 6.524 seconds (JVM running for 8.574)
+2020-10-16 16:28:35.804  INFO 7412 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 16:28:35.805  INFO 7412 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-16 16:28:35.815  INFO 7412 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-10-16 16:28:35.904  INFO 7412 --- [http-nio-8080-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:125}] to localhost:27017
+2020-10-16 16:29:42.440  INFO 7412 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-10-16 16:29:42.741  INFO 7412 --- [RMI TCP Connection(10)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-16 16:29:42.767  INFO 7412 --- [RMI TCP Connection(10)-127.0.0.1] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:125}] to localhost:27017 because the pool has been closed.
+2020-10-16 16:39:56.350  INFO 11860 --- [main] com.EcommerceProjectApplication          : Starting EcommerceProjectApplication on DESKTOP-SUBLFE5 with PID 11860 (C:\Users\Justine\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\EcommerceProject\target\classes started by Justine in C:\Users\Justine\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\EcommerceProject)
+2020-10-16 16:39:56.355  INFO 11860 --- [main] com.EcommerceProjectApplication          : No active profile set, falling back to default profiles: default
+2020-10-16 16:39:58.615  INFO 11860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-10-16 16:39:59.832  INFO 11860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1211ms. Found 1 MongoDB repository interfaces.
+2020-10-16 16:40:00.171  INFO 11860 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$8bb730fe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-16 16:40:00.260  INFO 11860 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-10-16 16:40:00.637  INFO 11860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-16 16:40:00.648  INFO 11860 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-16 16:40:00.648  INFO 11860 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 16:40:00.843  INFO 11860 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-16 16:40:00.843  INFO 11860 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4390 ms
+2020-10-16 16:40:01.076  INFO 11860 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-10-16 16:40:01.159  INFO 11860 --- [cluster-ClusterId{value='5f897f8980c2d519f9f7f82b', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:126}] to localhost:27017
+2020-10-16 16:40:01.185  INFO 11860 --- [cluster-ClusterId{value='5f897f8980c2d519f9f7f82b', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=18454300}
+2020-10-16 16:40:02.253  INFO 11860 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 16:40:02.591  INFO 11860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-16 16:40:02.607  INFO 11860 --- [main] com.EcommerceProjectApplication          : Started EcommerceProjectApplication in 6.813 seconds (JVM running for 8.885)
+2020-10-16 16:40:36.541  INFO 11860 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 16:40:36.542  INFO 11860 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-16 16:40:36.552  INFO 11860 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-10-16 16:40:36.932  INFO 11860 --- [http-nio-8080-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:127}] to localhost:27017
