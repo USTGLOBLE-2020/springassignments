@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="
+    http://www.springframework.org/schema/beans 
+    http://www.springframework.org/schema/beans/spring-beans.xsd 
+    http://www.springframework.org/schema/util 
+    http://www.springframework.org/schema/util/spring-util-2.5.xsd">
+
+	<bean id="hallOwner" class="com.user.User">
+		<property name="name" value="James" />
+		<property name="password" value="HallOwner" />
+		<property name="contactDetail" ref="contactDetails" />
+
+	</bean>
+
+	<bean id="hall" class="com.hall.Hall">
+		<property name="Owner" ref="hallOwner" />
+		<property name="width" value="300.24" />
+		<property name="length" value="500.32" />
+		<property name="eventList">
+		<list>
+			<ref bean = "event1"/>
+            <ref bean = "event2"/>
+		</list>
+		</property>
+	</bean>
+
+	<bean id="event1" class="com.event.Event">
+		<property name="id" value= "1"/>
+		<property name="name" value="Inaugration"/>
+	</bean>
+
+	<bean id="event2" class="com.event.Event">
+		<property name="id" value = "2"/>
+		<property name="name" value="National Anthem"/>
+	</bean>
+
+	<bean id="addressown" class="com.address.Address">
+		<property name="line1" value="24th street"/>
+		<property name="line2" value="BajajNagar"/>
+		<property name="city" value="Chennai"/>
+		<property name="pincode" value="600091"/>
+	</bean>
+
+	<bean id="contactDetails" class="com.contact.ContactDetails">
+		<property name="mobileNumber" value="123454321" />
+		<property name="alternateMobileNumber" value="1234567890" />
+		<property name="landlineNumber" value="22423456" />
+		<property name="email" value="owner@gmail.com" />
+		<property name="address" ref="addressown" />
+	</bean>
+</beans>
