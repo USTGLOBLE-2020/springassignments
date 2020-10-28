@@ -47,10 +47,17 @@ public class Hall {
 		this.eventList = events;
 	}
 	
+	/*
+	public Hall(User inpOwner, float inpWidth, float inpLength) {
+		this.Owner = inpOwner;
+		this.width = inpWidth;
+		this.length = inpLength;
+	}
+	*/
 	public void display() {
 		if(eventList.size()>0) {
 			for(int i = 0 ;i < eventList.size(); i++) {
-				System.out.println("Event ID "+eventList.get(i).getId()+"\nEvent Name "+eventList.get(i).getName());
+				System.out.println(eventList.get(i).getId()+".) "+eventList.get(i).getName());
 			}
 		}
 	}
